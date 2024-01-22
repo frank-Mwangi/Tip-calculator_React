@@ -1,0 +1,26 @@
+.tipAmt {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid brown;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+}
+.text > h3 {
+  border: 2px solid white;
+  margin-bottom: 0;
+}
+.text p {
+  margin-top: 0;
+  border: 2px dotted white;
+}
+.amount {
+  display: flex;
+  align-items: center;
+  color: #32c2ae;
+  font-size: 30px;
+  font-weight: bold;
+}

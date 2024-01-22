@@ -1,0 +1,38 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  max-width: 80%;
+}
+.grid1,
+.grid2 {
+  border: 2px solid yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.grid1 > button {
+  background-color: rgb(1, 15, 1);
+  width: 80px;
+  height: 40px;
+  color: white;
+}
+.grid2 > button {
+  background-color: rgb(1, 15, 1);
+  width: 80px;
+  height: 40px;
+  color: white;
+}
+button:hover {
+  background-color: #27c2ad;
+}
+.grid2 > .custom {
+  background-color: #f5ffff;
+  display: flex;
+  justify-content: center;
+  color: #596d6e;
+  font-weight: bold;
+}
+.custom:hover {
+  background-color: #27c2ad;
+}

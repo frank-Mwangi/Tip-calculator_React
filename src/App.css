@@ -1,0 +1,27 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(211, 238, 228);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  width: 100vw;
+  height: 33vh;
+}
+.header h1 {
+  border: 2px solid white;
+  font-size: 25px;
+}
