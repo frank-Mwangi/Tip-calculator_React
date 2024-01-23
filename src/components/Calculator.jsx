@@ -1,21 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Input from "./input";
 import Buttons from "./Buttons";
 import Tipamount from "./Tipamount";
 import Total from "./Total";
 import Button from "./Button";
 import "../styles/calculator.css";
-const Calculator = () => {
+
+const Calculator = ({ clickedTip }) => {
   return (
     <div className="calculator">
       <aside className="left">
-        <Input text="Bill" />
-        <Buttons />
-        <Input text="Number of People" />
+        <Input text="Bill" isBill={true} />
+        <Buttons clickedTip={clickedTip} />
+        <Input text="Number of People" isBill={false} />
       </aside>
       <aside className="right">
-        <Tipamount />
-        <Total />
+        <Tipamount tipPerPerson={0.0} />
+        <Total totalPerPerson={0.0} />
         <Button />
       </aside>
     </div>

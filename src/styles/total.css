@@ -1,13 +1,13 @@
 .total {
   display: flex;
   flex-direction: row;
-  border: 2px solid brown;
+  /* border: 2px solid brown; */
   width: 100%;
   margin-bottom: 60px;
 }
 .total > .text {
   width: 50%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: flex;
   flex-direction: column;
 }

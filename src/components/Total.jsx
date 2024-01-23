@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/total.css";
 
-const Total = ({ total }) => {
+const Total = ({ totalPerPerson }) => {
   return (
     <div className="total">
       <div className="text">
         <h3>Total</h3>
         <p>/ person</p>
       </div>
-      <div className="amount">${total}</div>
+      <div className="amount">${totalPerPerson}</div>
     </div>
   );
 };

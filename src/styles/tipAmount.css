@@ -1,7 +1,7 @@
 .tipAmt {
   display: flex;
   flex-direction: row;
-  border: 2px solid brown;
+  /* border: 2px solid brown; */
 }
 .text {
   display: flex;
@@ -10,12 +10,12 @@
   width: 50%;
 }
 .text > h3 {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   margin-bottom: 0;
 }
 .text p {
   margin-top: 0;
-  border: 2px dotted white;
+  /* border: 2px dotted white; */
 }
 .amount {
   display: flex;

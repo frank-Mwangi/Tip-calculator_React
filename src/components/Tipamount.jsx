@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/tipAmount.css";
 
-const Tipamount = ({ tipAmount }) => {
+const Tipamount = ({ tipPerPerson }) => {
   return (
     <div className="tipAmt">
       <div className="text">
         <h3>Tip Amount</h3>
         <p>/ person</p>
       </div>
-      <div className="amount">${tipAmount}</div>
+      <div className="amount">${tipPerPerson}</div>
     </div>
   );
 };
